@@ -1,4 +1,4 @@
-language: cpp
+language: c
 compiler:
   - gcc
-script: gcc -c main.cpp && gcc -o main main.cpp && ./main
+script: gcc -c main.cpp && gcc -o main main.o && ./main
