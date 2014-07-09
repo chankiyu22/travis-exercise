@@ -1,4 +1,6 @@
+#include <stdio.h>
+
 int main() {
-  fprint("HelloWorld");
+  printf("HelloWorld");
   return 0;
 }
